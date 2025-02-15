@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: ens
+
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        transaction:
+          jta:
+            platform: org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ensolution
+    username: root
+    password: '0000'
