@@ -1,7 +1,7 @@
-package com.damoya.ens.controller;
+package com.damoya.ens;
 
-import com.damoya.ens.dto.User;
-import com.damoya.ens.service.UserService;
+import com.damoya.ens.authentication.domain.User;
+import com.damoya.ens.authentication.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import lombok.RequiredArgsConstructor;

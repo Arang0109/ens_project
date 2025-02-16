@@ -1,7 +1,7 @@
-package com.damoya.ens.service;
+package com.damoya.ens.authentication.service;
 
-import com.damoya.ens.dto.User;
-import com.damoya.ens.repository.UserRepository;
+import com.damoya.ens.authentication.domain.User;
+import com.damoya.ens.authentication.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.damoya.ens.dto;
+package com.damoya.ens.authentication.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
