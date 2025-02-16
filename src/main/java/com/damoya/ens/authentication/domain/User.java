@@ -13,13 +13,13 @@ import lombok.*;
 @Table(name = "user")
 public class User {
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "user_id")
-  private Integer id;
+  private String id;
 
-  @Column(name = "user_name")
+  private String password;
+
+  @Column(name = "name")
   private String username;
 
-  @Column(name = "user_password")
-  private String password;
+  private String email;
 }
